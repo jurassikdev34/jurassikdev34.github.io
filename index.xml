@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JurassikDev34</title>
+    <link>https://jurassikdev34.github.io/</link>
+    <description>Recent content on JurassikDev34</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© [JurassikDev34](https://github.com/jurassikdev34)</copyright>
+    <lastBuildDate>Mon, 05 Aug 2024 16:17:42 +0200</lastBuildDate>
+    <atom:link href="https://jurassikdev34.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creation</title>
+      <link>https://jurassikdev34.github.io/posts/creation/</link>
+      <pubDate>Mon, 05 Aug 2024 16:17:42 +0200</pubDate>
+      <guid>https://jurassikdev34.github.io/posts/creation/</guid>
+      <description>Bien este es el primer post de lo que puda venri a futuro.&#xA;Hecho con Hugo y editado en Markdown con (Neo)VIM.&#xA;De momento no se como continuara esto ni que tematica le quiero dar.&#xA;La idea de tener un blog vino a partir de ciertas ocurrencias de mi vida. Como el comienzo de la escritura del libro, &amp;ldquo;Crónica de una Vida&amp;rdquo;. Una autobiografia personal que cuenta diferentes hechos y ocurriencias, ideas y problemas filosoficos, matematicos y fisicos.</description>
+    </item>
+  </channel>
+</rss>
