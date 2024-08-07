@@ -6,8 +6,15 @@
     <description>Recent content in Posts on JurassikDev34</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Aug 2024 16:18:38 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2024 23:52:16 +0200</lastBuildDate>
     <atom:link href="https://jurassikdev34.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cifration</title>
+      <link>https://jurassikdev34.github.io/posts/cifration/</link>
+      <pubDate>Wed, 07 Aug 2024 23:52:16 +0200</pubDate>
+      <guid>https://jurassikdev34.github.io/posts/cifration/</guid>
+      <description>Matemáticas del Cifrado: Cómo Funciona la Criptografía Moderna La criptografía es una disciplina fundamental en el mundo digital actual, esencial para garantizar la privacidad y la seguridad de nuestras comunicaciones. Desde los correos electrónicos hasta las transacciones bancarias, la criptografía asegura que la información permanezca confidencial y que solo las personas autorizadas puedan acceder a ella. Pero, ¿cómo funciona exactamente la criptografía moderna? En este artículo, desglosaremos los principios matemáticos detrás de los algoritmos de cifrado que protegen nuestros datos en la era digital.</description>
+    </item>
     <item>
       <title>Privacy</title>
       <link>https://jurassikdev34.github.io/posts/privacy/</link>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content=""
+  />
+  
+    
+      <title>Cifration | JurassikDev34</title>
+    
+  
+  <link rel="stylesheet" href="/css/reset.css"/>
+  <link rel="stylesheet" href="/css/font.css"/>
+  <link rel="stylesheet" href="/css/smigle.css"/>
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+  <body>
+    <div id="root">
+      <header>
+  <div id="brand">
+    <a class="icon-link" href="https://jurassikdev34.github.io/">
+      <img
+        class="icon"
+        src="/img/logo.png"
+      />
+    </a>
+    <div class="text">
+      <a href="https://jurassikdev34.github.io/"><h1>JurassikDev34</h1></a>
+      <h3>JurassikDev34: Amante de las tecnologías retro, del self-hosting y del software libre.</h3>
+    </div>
+  </div>
+  <nav>
+    
+      
+        
+        <a href="/"><b>Home</b></a>
+      
+         | 
+        <a href="/about/"><b>About</b></a>
+      
+         | 
+        <a href="/posts/"><b>Posts</b></a>
+      
+         | 
+        <a href="/categories/"><b>Categories</b></a>
+      
+         | 
+        <a href="/tags/"><b>Tags</b></a>
+      
+         | 
+        <a href="/index.xml"><b>RSS</b></a>
+      
+    
+  </nav>
+  <hr />
+</header>
+
+      <div id="content">
+        
+  <main>
+    <article>
+      <h1 class="title">Cifration</h1>
+      
+      <div class="post-meta">
+  <strong>
+    <span>Posted on</span>
+    <time>2024-08-07 23:52:16</time>
+    
+    
+  </strong>
+  <span> • 859 words</span>
+  <span> • 5 minute read</span>
+  
+  
+</div>
+
+      <div class="content"><h2 id="matemáticas-del-cifrado-cómo-funciona-la-criptografía-moderna">Matemáticas del Cifrado: Cómo Funciona la Criptografía Moderna</h2>
+<p>La criptografía es una disciplina fundamental en el mundo digital actual, esencial para garantizar la privacidad y la seguridad de nuestras comunicaciones. Desde los correos electrónicos hasta las transacciones bancarias, la criptografía asegura que la información permanezca confidencial y que solo las personas autorizadas puedan acceder a ella. Pero, ¿cómo funciona exactamente la criptografía moderna? En este artículo, desglosaremos los principios matemáticos detrás de los algoritmos de cifrado que protegen nuestros datos en la era digital.</p>
+<h3 id="la-base-matemática-del-cifrado">La Base Matemática del Cifrado</h3>
+<p>La criptografía moderna se basa en conceptos matemáticos avanzados que aseguran la integridad y la confidencialidad de la información. Los dos pilares fundamentales son la <strong>teoría de números</strong> y el <strong>álgebra abstracta</strong>. Estos campos de las matemáticas proporcionan las herramientas necesarias para crear y analizar algoritmos criptográficos.</p>
+<h4 id="1-teoría-de-números-primalidad-y-factores-primos">1. <strong>Teoría de Números: Primalidad y Factores Primos</strong></h4>
+<p>Uno de los conceptos clave en criptografía es el de los <strong>números primos</strong>. Un número primo es un número mayor que 1 que solo es divisible por 1 y por sí mismo. Los algoritmos criptográficos, como el <strong>RSA</strong>, se basan en la dificultad de factorizar números grandes en sus factores primos.</p>
+<p>El algoritmo RSA, por ejemplo, utiliza dos grandes números primos para generar claves públicas y privadas. La seguridad de RSA se basa en la dificultad de descomponer un número grande en sus factores primos. Si bien es fácil multiplicar dos números primos grandes, la descomposición de su producto es extremadamente difícil, incluso con computadoras poderosas.</p>
+<h4 id="2-álgebra-abstracta-grupos-y-cuerpos-finito">2. <strong>Álgebra Abstracta: Grupos y Cuerpos Finito</strong></h4>
+<p>Otro aspecto crucial de la criptografía es el uso de <strong>grupos y cuerpos finitos</strong>. Un grupo es una colección de elementos con una operación que cumple ciertas propiedades, como la conmutatividad y la existencia de un elemento neutro. Los cuerpos finitos, como el cuerpo de los números módulo p (donde p es un número primo), son fundamentales en muchos algoritmos criptográficos.</p>
+<p>Por ejemplo, el <strong>algoritmo de ElGamal</strong> se basa en el problema de <strong>logaritmos discretos</strong> en un grupo finito. En este contexto, el problema consiste en encontrar el exponente en una ecuación de la forma ( g^x \equiv h \mod p ), donde g y p son conocidos, pero x es desconocido. Resolver esta ecuación es computacionalmente difícil, lo que proporciona seguridad al sistema.</p>
+<h3 id="algoritmos-criptográficos-cifrado-y-descifrado">Algoritmos Criptográficos: Cifrado y Descifrado</h3>
+<p>Los algoritmos criptográficos se dividen en dos categorías principales: <strong>cifrado simétrico</strong> y <strong>cifrado asimétrico</strong>.</p>
+<h4 id="cifrado-simétrico"><strong>Cifrado Simétrico</strong></h4>
+<p>En el cifrado simétrico, la misma clave se utiliza tanto para cifrar como para descifrar la información. Algoritmos como <strong>AES (Advanced Encryption Standard)</strong> se basan en operaciones matemáticas complejas sobre matrices y permutaciones. AES utiliza una clave de 128, 192 o 256 bits y aplica varias rondas de transformación de datos, que incluyen sustituciones y permutaciones, para asegurar que el texto cifrado sea prácticamente indescifrable sin la clave adecuada.</p>
+<h4 id="cifrado-asimétrico"><strong>Cifrado Asimétrico</strong></h4>
+<p>El cifrado asimétrico, o <strong>cifrado de clave pública</strong>, utiliza un par de claves diferentes: una clave pública para cifrar la información y una clave privada para descifrarla. Algoritmos como <strong>RSA</strong> y <strong>ECC (Elliptic Curve Cryptography)</strong> pertenecen a esta categoría. La criptografía de curvas elípticas, por ejemplo, se basa en las propiedades geométricas de las curvas elípticas sobre campos finitos y ofrece una seguridad equivalente a la RSA con claves más cortas, lo que resulta en mayor eficiencia.</p>
+<h3 id="aplicaciones-y-relevancia">Aplicaciones y Relevancia</h3>
+<p>La criptografía moderna se aplica en numerosos contextos. <strong>HTTPS</strong>, el protocolo que asegura la comunicación en la web, utiliza cifrado para proteger los datos transmitidos entre los navegadores y los servidores. Las aplicaciones bancarias y de mensajería también dependen de la criptografía para proteger la información financiera y personal de los usuarios.</p>
+<p>Además, la criptografía juega un papel crucial en la <strong>firma digital</strong> y en la <strong>autenticación</strong>, garantizando la integridad y autenticidad de los documentos y las identidades digitales. La firma digital se basa en técnicas criptográficas para asegurar que un mensaje o documento no haya sido alterado y que proviene de una fuente confiable.</p>
+<h3 id="riesgos-y-desafíos">Riesgos y Desafíos</h3>
+<p>A pesar de los avances en criptografía, la tecnología no está exenta de desafíos. La <strong>computación cuántica</strong>, por ejemplo, podría amenazar la seguridad de los algoritmos criptográficos actuales, ya que podría resolver ciertos problemas matemáticos, como la factorización de números grandes, mucho más rápido que las computadoras clásicas. Los investigadores están trabajando en <strong>criptografía post-cuántica</strong>, desarrollando nuevos algoritmos resistentes a los ataques de las computadoras cuánticas.</p>
+<h3 id="conclusión">Conclusión</h3>
+<p>La criptografía moderna es un campo fascinante que combina matemáticas avanzadas con tecnología para proteger nuestra información en la era digital. Desde la teoría de números hasta el álgebra abstracta, los principios matemáticos detrás del cifrado aseguran que nuestros datos permanezcan seguros frente a amenazas cada vez más sofisticadas. A medida que la tecnología continúa avanzando, la criptografía seguirá evolucionando para enfrentar nuevos desafíos y proteger nuestra privacidad en un mundo digital en constante cambio.</p>
+<p>En última instancia, entender cómo funciona la criptografía no solo nos ayuda a apreciar su importancia, sino que también nos empodera para tomar decisiones informadas sobre nuestra seguridad digital. ¡La próxima vez que te conectes a un sitio web seguro o envíes un mensaje cifrado, recuerda el complejo y elegante entramado matemático que protege tu información!</p>
+</div>
+    </article>
+  </main>
+
+      </div>
+      <footer>
+  <hr />
+  
+    <p id="social">
+      Find me around the web:
+      <br />
+      
+        
+        <a href="https://github.com/jurassikdev34">GitHub</a>
+      
+         | 
+        <a href="https://tu.social/@jurassikdev34">Mastodon</a>
+      
+    </p>
+  
+  <p class="copyright">
+    Copyright © 2024
+    <a href="https://jurassikdev34.github.io/"><strong>JurassikDev34</strong></a>.
+    This work is licensed under the
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> license.
+  </p>
+</footer>
+
+    </div>
+  </body>
+</html>
